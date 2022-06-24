@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   font-family: "Karla", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
@@ -31,7 +31,16 @@ a, a:visited, a:active {
 }
 
 :root {
-  --background-color:#d6e2f0;
+  --background-color:#0B2434;
   --text-color:#4A4E74;
   --heading-color:#2B283A;
+}
+
+.main {
+  background-color: #F5F5F5;
+  max-width: 800px;
+  width: 100%;
+  margin: 30px auto;
+  height: 400px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
