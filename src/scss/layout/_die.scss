@@ -9,9 +9,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:auto;
+  margin: auto;
   cursor: pointer;
-  background-color:#fff;
+  background-color: #fff;
   &__number {
     font: util.$headingfont;
     color: var(--number-color);
