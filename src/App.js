@@ -5,6 +5,7 @@ function App() {
 
   const [dice, setDice] = React.useState(allNewDice());
 
+  console.log(setDice);
 
   function allNewDice(){
     let diceNum = [];
@@ -17,10 +18,11 @@ function App() {
   const diceElement = dice.map(die=> <Die value={die} />)
 
   return (
-    <main class="main">
+    <main className="main">
       <div className="main__dice-container">
        {diceElement}
       </div>
+      <button className="main__btn" >Roll</button>
     </main>
   );
 }
