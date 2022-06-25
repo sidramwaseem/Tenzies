@@ -17,7 +17,9 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
   line-height: 1.1;
 }
@@ -26,15 +28,17 @@ p {
   margin-top: 0;
 }
 
-a, a:visited, a:active {
+a,
+a:visited,
+a:active {
   text-decoration: none;
 }
 
 :root {
-  --background-color:#0B2434;
-  --text-color:#4A4E74;
-  --heading-color:#2B283A;
-  --number-color:#2B283A;
+  --background-color: #0b2434;
+  --text-color: #4a4e74;
+  --heading-color: #2b283a;
+  --number-color: #2b283a;
 }
 
 .main {
