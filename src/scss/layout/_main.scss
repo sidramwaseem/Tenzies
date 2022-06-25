@@ -1,8 +1,20 @@
-.main{
-  background-color: #F5F5F5;
+.main {
+  background-color: #f5f5f5;
   max-width: 800px;
   width: 100%;
   margin: 30px auto;
   height: 400px;
   border-radius: 10px;
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__dice-container {
+    border:2px solid yellow;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap:50px;
+  }
 }
