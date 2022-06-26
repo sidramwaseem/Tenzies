@@ -5,9 +5,11 @@ import { nanoid } from "nanoid";
 function App() {
   const [dice, setDice] = React.useState(allNewDice());
 
-  // const [tenzies, setTenzies] = React.useState(false);
+  const [tenzies, setTenzies] = React.useState(false);
 
-  // React.useEffect(){}
+  React.useEffect(()=>{
+    console.log("The dice is clicked!")
+  }, [dice])
 
   function generateNewDie(){
     return {
