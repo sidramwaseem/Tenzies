@@ -13,7 +13,6 @@
   align-items: center;
 
   &__dice-container {
-    border: 2px solid yellow;
     display: grid;
     grid-template: auto auto / repeat(5, 1fr);
     gap: 50px;
