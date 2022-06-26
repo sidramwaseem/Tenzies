@@ -5,6 +5,10 @@ import { nanoid } from "nanoid";
 function App() {
   const [dice, setDice] = React.useState(allNewDice());
 
+  // const [tenzies, setTenzies] = React.useState(false);
+
+  // React.useEffect(){}
+
   function generateNewDie(){
     return {
       value: Math.ceil(Math.random() * 6),
