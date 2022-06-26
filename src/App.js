@@ -11,12 +11,12 @@ function App() {
   function allNewDice() {
     let diceNum = [];
     for (let i = 0; i < 10; i++) {
-      diceNum.push(Math.ceil(Math.random() * 6));
+      diceNum.push({ value: Math.ceil(Math.random() * 6), isHeld: false });
     }
     return diceNum;
   }
 
-  const diceElement = dice.map((die) => <Die value={die} />);
+  const diceElement = dice.map((die) => <Die value={die.value} />);
 
   return (
     <main className="main">
