@@ -16,7 +16,7 @@ function App() {
     return diceNum;
   }
 
-  const diceElement = dice.map((die) => <Die value={die.value} />);
+  const diceElement = dice.map((die) => <Die value={die.value} isHeld={die.isHeld} />);
 
   return (
     <main className="main">
