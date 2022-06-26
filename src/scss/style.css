@@ -22,10 +22,16 @@ h2,
 h3 {
   font-weight: 700;
   line-height: 1.1;
+  font: "Karla", sans-serif;
+  color: var(--heading-color);
+  font-size: 35px;
 }
 
 p {
   margin-top: 0;
+  font-weight: 400;
+  font: "Inter", sans-serif;
+  color: var(--text-color);
 }
 
 a,
@@ -61,7 +67,7 @@ a:active {
   gap: 50px;
 }
 .main__btn {
-  width: 92.16px;
+  width: 150px;
   height: 35.84px;
   padding: 20px;
   background-color: #5035ff;
@@ -83,6 +89,11 @@ a:active {
 }
 .main__btn:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.main__para {
+  border: 2px solid green;
+  max-width: 295px;
+  text-align: center;
 }
 
 .die {
