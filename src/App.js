@@ -8,7 +8,14 @@ function App() {
   const [tenzies, setTenzies] = React.useState(false);
 
   React.useEffect(()=>{
-    console.log("The dice is clicked!")
+    const allHeld = dice.every(die => die.isHeld === true);
+    const firstValue = dice[0].value;
+    const allSameValue = dice.every(die => die.value === firstValue);
+
+    if(allHeld && allSameValue){
+      setTenzies(true);
+      console.log("You Won!");
+    }
   }, [dice])
 
   function generateNewDie(){
