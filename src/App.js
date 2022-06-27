@@ -28,15 +28,24 @@ function App() {
 
   const [count, setCount] = React.useState(0);
 
+  var highscore = localStorage.getItem("highscore");
+
   function rollDice() {
-    if(!tenzies){
-      setCount(prevCount => prevCount + 1);
+    if (!tenzies) {
+      setCount((prevCount) => prevCount + 1);
       setDice((oldDice) =>
         oldDice.map((die) => {
           return die.isHeld ? die : generateNewDie();
         })
       );
-    } else{
+    } else {
+      if (highscore !== null) {
+        if (count > highscore) {
+          localStorage.setItem("highscore", count);
+        }
+      } else {
+        localStorage.setItem("highscore", count);
+      }
       setCount(0);
       setTenzies(false);
       setDice(allNewDice());
@@ -70,9 +79,9 @@ function App() {
 
   return (
     <main className="main">
-    {tenzies && <Confetti />}
+      {tenzies && <Confetti />}
       <h1 className="main__heading">Tenzies</h1>
-      <p className="main__para" >
+      <p className="main__para">
         Roll until all dice are the same. Click each die to freeze it at its
         current value between rolls
       </p>
@@ -81,6 +90,7 @@ function App() {
         {tenzies ? "New Game" : "Roll"}
       </button>
       <h4>No of Rolls: {count} </h4>
+      <h5>Lowest Number of Rolls: {highscore} </h5>
     </main>
   );
 }
