@@ -40,7 +40,7 @@ function App() {
       );
     } else {
       if (highscore !== null) {
-        if (count > highscore) {
+        if (count < highscore) {
           localStorage.setItem("highscore", count);
         }
       } else {
