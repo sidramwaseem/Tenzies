@@ -26,14 +26,18 @@ function App() {
     };
   }
 
+  const [count, setCount] = React.useState(0);
+
   function rollDice() {
     if(!tenzies){
+      setCount(prevCount => prevCount + 1);
       setDice((oldDice) =>
         oldDice.map((die) => {
           return die.isHeld ? die : generateNewDie();
         })
       );
     } else{
+      setCount(0);
       setTenzies(false);
       setDice(allNewDice());
     }
@@ -76,6 +80,7 @@ function App() {
       <button onClick={rollDice} className="main__btn">
         {tenzies ? "New Game" : "Roll"}
       </button>
+      <h4>No of Rolls: {count} </h4>
     </main>
   );
 }
