@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<h1 align="center">Tenzies Game</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h3>
+    <a href="https://tenzie-scrimba.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/sidramwaseem/Tenzies">
+      Solution
+    </a>
+    <span> | </span>
+  </h3>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Overview](#overview)
+  - [Difficulty](#difficulty)
+  - [Languages](#languages)
+  - [Built With](#built-with)
+  - [Preview](#preview)
+- [Features](#features)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- OVERVIEW -->
 
-### `npm test`
+## Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Difficulty 
+Difficulty Level: Intermediate
 
-### `npm run build`
+### Languages
+Languages used: 
+- HTML 
+- CSS
+   -SCSS
+- React
+  - props
+  - React Hooks
+     - State
+  - Local Storage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tools and resources used in this projects are:
+- HTML
+- CSS
+   -SCSS
+      -Partials
+      -BEM concept
+- React
+- VsCode
+- [FontAwesome](https://fontawesome.com/search?s=solid%2Cbrands)
+- [Google Fonts](https://fonts.google.com/)
+### Preview
+![screenshot](https://github.com/sidramwaseem/Tenzies/blob/main/preview/s1.png?raw=true)
+![screenshot](https://github.com/sidramwaseem/Tenzies/blob/main/preview/s2.png?raw=true)
+![screenshot](https://github.com/sidramwaseem/Tenzies/blob/main/preview/s3.png?raw=true)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
+- React Hooks
+- Managing States
+- Changing element class on interaction
+- Saving Data to local storage
+- Scss partials
+- Targeting classes with scss
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
+Some Articles that you might find useful:  
+- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [SASS, BEM and Responsive Design](https://www.youtube.com/watch?v=jfMHA8SqUL4&list=WL&index=7)
+- [Getting started with react](https://reactjs.org/docs/getting-started.html)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [localStorage with React](https://www.freecodecamp.org/news/how-to-use-localstorage-with-react-hooks-to-set-and-get-items/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+- GitHub [@sidramwaseem](https://github.com/sidramwaseem)
+- Stackoverflow [@sidramwaseem](https://stackoverflow.com/users/15072792/sidramwaseem)
+- Twitter [@sidramwaseem](https://twitter.com/sidramwaseem)
