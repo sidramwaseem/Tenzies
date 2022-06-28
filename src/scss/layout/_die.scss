@@ -11,6 +11,7 @@
   align-items: center;
   margin: auto;
   cursor: pointer;
+
   &__number {
     font: util.$headingfont;
     color: var(--number-color);
