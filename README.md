@@ -9,7 +9,6 @@
     <a href="https://github.com/sidramwaseem/Tenzies">
       Solution
     </a>
-    <span> | </span>
   </h3>
 </div>
 
